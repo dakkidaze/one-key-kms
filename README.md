@@ -14,4 +14,12 @@ CentOS，Redhat，Fedora等请选择CentOS脚本
 
 Debian，Ubuntu，Mint等请选择Debian脚本
 
+##kms.sh管理脚本的使用：
 
+如果您使用这里的一键脚本安装，即可完美使用该脚本，否则需要手动更改可执行文件存放路径
+
+只有start/stop/restart/status的功能，直接执行即可
+
+./kms.sh start
+
+这样。
