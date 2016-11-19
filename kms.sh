@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author: Dakkidaze <gioku@docomo.net.cn>
 
-DAEMON=~/kms/bin/vlmcsd
+DAEMON=/usr/local/kms/vlmcsd
 STAT=2
 check_running(){
 PID=`ps -ef | grep -v grep | grep -i "vlmcsd" | awk '{print $2}'`
